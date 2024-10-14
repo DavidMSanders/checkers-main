@@ -194,8 +194,9 @@ bool pieceCanMove(int i, int j, char playerT)
         printf("Has open spot to move!\n");
         return true;
     }
-    }
     printf("Does not have open spot.\n");
+    }
+    
     return false;
 }
 
